@@ -1,5 +1,4 @@
 #include "Warlock.hpp"
-#include <iostream>
 
 
 int main()
