@@ -7,7 +7,7 @@
 # include "Warlock.hpp"
 # include "ASpell.hpp"
 
-class ASlell
+class ASpell;
 
 class ATarget 
 {
@@ -16,7 +16,7 @@ class ATarget
 
     public:
         ATarget();
-        ATarget(std::string name, std::string effects);
+        ATarget(std::string type);
         ATarget(ATarget const& CopyClass);
 
         ATarget const& operator=(ATarget const & rhs);

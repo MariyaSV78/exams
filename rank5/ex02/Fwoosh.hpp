@@ -8,10 +8,10 @@ class Fwoosh: public ASpell
 {
     public:
         Fwoosh();
-        Fwoosh(std::string name, std::string effects);
-        Fwoosh(ASpell const& CopyClass);
+        // Fwoosh(std::string name, std::string effects);
+        // Fwoosh(ASpell const& ClassCopy);
 
-        Fwoosh const& operator=(Fwoosh const & rhs);
+        // Fwoosh const& operator=(Fwoosh const & rhs);
 
         virtual ~Fwoosh();
 

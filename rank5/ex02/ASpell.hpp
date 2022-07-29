@@ -17,9 +17,9 @@ class ASpell
         ASpell(std::string name, std::string effects);
         ASpell(ASpell const& CopyClass);
 
-        ASlell const& operator=(ASpell const & rhs);
+        ASpell const& operator=(ASpell const & rhs);
 
-        virtual ~ASlell();
+        virtual ~ASpell();
 
         std::string const&  getName() const;
         std::string const&  getEffects() const;
